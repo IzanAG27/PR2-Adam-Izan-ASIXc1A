@@ -1,4 +1,6 @@
-celsius = int(input("Dime los grados a conversionar en celsius: "))
-conversion = (9 / 5) * celsius + 32
 
-print(conversion)
+
+def Conversion(c):
+    conversion = (9 / 5) * c + 32
+    return conversion
+print(Conversion(int(input("Dime un numero para conversionar: "))))
