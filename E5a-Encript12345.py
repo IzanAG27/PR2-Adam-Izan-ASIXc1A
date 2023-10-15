@@ -1,10 +1,13 @@
 """
-Grup: Izan Arnaiz, Adam Benahmed y Axel Benitez
-Data Entrega: 16/10/2023
-ASIX A1 M03 UF1
+Grupo: Izan Arnaiz, Adam Benahmed y Axel Benitez.
+Fecha de entrega: 16/10/2023.
+ASIX A1 M03 UF1.
+
+Descripción:
+Programa que reemplace las letras vocales de una palabra por orden del 1 al 5.
 """
 
-word = input("Dime una palabra para codificar: ")
+word = input("Dime una palabra para codificar: ")  # Pedimos al usuario que nos diga una palabra.
 
 # Remplaza las vocales de una palabra por numeros del 1 al 5 independientemente si son mayusculas o minusculas
 word = word.replace('a', '1')

@@ -1,10 +1,14 @@
 """
-Grup: Izan Arnaiz, Adam Benahmed y Axel Benitez
-Data Entrega: 16/10/2023
-ASIX A1 M03 UF1
+Grupo: Izan Arnaiz, Adam Benahmed y Axel Benitez.
+Fecha de entrega: 16/10/2023.
+ASIX A1 M03 UF1.
+
+Descripción:
+
+Forma alternativa de reemplazar las vocales por números de una palabra.
 """
 
-word = input("Que palabra quieres codificar? ")
+word = input("Que palabra quieres codificar? ")  # Pedimos al usuario que nos diga una palabra.
 word2 = "La palabra escogida es {}.".format(word)  # Guarda el input orginal y lo imprime por pantalla
 print(word2)
 
