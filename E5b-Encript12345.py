@@ -1,13 +1,19 @@
+"""
+Grup: Izan Arnaiz, Adam Benahmed y Axel Benitez
+Data Entrega: 16/10/2023
+ASIX A1 M03 UF1
+"""
+
 word = input("Que palabra quieres codificar? ")
-word2 = "La palabra escogida es {}.".format(word)
+word2 = "La palabra escogida es {}.".format(word)  # Guarda el input orginal y lo imprime por pantalla
 print(word2)
 
 if word != "":
     i = 0
     result = ""
-    length = len(word)
+    length = len(word)  # Mide la longitud del valor de la variable
     while i < length:
-        if word[i] == 'a' or word[i] == 'A':
+        if word[i] == 'a' or word[i] == 'A':  # Mira si en la palabra existen vocales y si las hay le suma un numero
             result += '1'
             i += 1
         elif word[i] == 'e' or word[i] == 'E':
@@ -23,8 +29,8 @@ if word != "":
             result += '5'
             i += 1
         else:
-            result += chr(ord(word[i]))
+            result += chr(ord(word[i]))  # Une el result (con las vocales) con el resto de consonantes
             i += 1
-    print("La palabra codificada es {}.".format(result))
+    print("La palabra codificada es {}.".format(result))  # Imprime por pantalla la palabra codificada
 else:
-    print("Introduce una palabra!")
+    print("Introduce una palabra!")  # Indica que si la palabra esta en blanco imprime por pantalla una advertencia
